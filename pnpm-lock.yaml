@@ -109,13 +109,13 @@ devDependencies:
     version: 10.4.7(postcss@8.4.13)
   babel-loader:
     specifier: ^9.1.3
-    version: 9.1.3(@babel/core@7.22.10)(webpack@5.72.0)
+    version: 9.1.3(@babel/core@7.22.10)(webpack@5.76.0)
   browserslist:
     specifier: ^4.21.4
     version: 4.21.4
   css-loader:
     specifier: ^5.0.0
-    version: 5.2.7(webpack@5.72.0)
+    version: 5.2.7(webpack@5.76.0)
   eslint:
     specifier: ^7.32.0
     version: 7.32.0
@@ -136,7 +136,7 @@ devDependencies:
     version: 9.15.1(eslint@7.32.0)
   fast-sass-loader:
     specifier: ^2.0.0
-    version: 2.0.1(sass@1.51.0)(webpack@5.72.0)
+    version: 2.0.1(sass@1.51.0)(webpack@5.76.0)
   glob:
     specifier: ^10.2.6
     version: 10.2.6
@@ -145,7 +145,7 @@ devDependencies:
     version: 8.4.13
   postcss-loader:
     specifier: ^4.0.4
-    version: 4.3.0(postcss@8.4.13)(webpack@5.72.0)
+    version: 4.3.0(postcss@8.4.13)(webpack@5.76.0)
   postcss-preset-env:
     specifier: ^7.5.0
     version: 7.5.0(postcss@8.4.13)
@@ -163,13 +163,13 @@ devDependencies:
     version: 6.1.3
   style-loader:
     specifier: ^2.0.0
-    version: 2.0.0(webpack@5.72.0)
+    version: 2.0.0(webpack@5.76.0)
   terser:
     specifier: '>=5.3.8 <6'
     version: 5.13.1
   terser-webpack-plugin:
     specifier: ^5.0.1
-    version: 5.3.1(webpack@5.72.0)
+    version: 5.3.1(webpack@5.76.0)
   to-string-loader:
     specifier: ^1.2.0
     version: 1.2.0
@@ -181,16 +181,16 @@ devDependencies:
     version: 4.9.5
   vue-loader:
     specifier: ^15.10.1
-    version: 15.10.1(@babel/core@7.22.10)(css-loader@5.2.7)(lodash@4.17.21)(webpack@5.72.0)
+    version: 15.10.1(@babel/core@7.22.10)(css-loader@5.2.7)(lodash@4.17.21)(webpack@5.76.0)
   webpack:
-    specifier: ^5.31.2
-    version: 5.72.0(webpack-cli@4.9.2)
+    specifier: ^5.76.0
+    version: 5.76.0(webpack-cli@4.9.2)
   webpack-bundle-analyzer:
     specifier: ^4.5.0
     version: 4.5.0
   webpack-cli:
     specifier: ^4.6.0
-    version: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0)
+    version: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0)
   ws:
     specifier: ^8.5.0
     version: 8.5.0
@@ -2389,14 +2389,14 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/configtest@1.1.1(webpack-cli@4.9.2)(webpack@5.72.0):
+  /@webpack-cli/configtest@1.1.1(webpack-cli@4.9.2)(webpack@5.76.0):
     resolution: {integrity: sha512-1FBc1f9G4P/AxMqIgfZgeOTuRnwZMten8E7zap5zgpPInnCrP8D4Q81+4CWIch8i/Nf7nXjP0v6CjjbHOrXhKg==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
       webpack-cli: 4.x.x
     dependencies:
-      webpack: 5.72.0(webpack-cli@4.9.2)
-      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0)
+      webpack: 5.76.0(webpack-cli@4.9.2)
+      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0)
     dev: true
 
   /@webpack-cli/info@1.4.1(webpack-cli@4.9.2):
@@ -2405,7 +2405,7 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: 7.8.1
-      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0)
+      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0)
     dev: true
 
   /@webpack-cli/serve@1.6.1(webpack-cli@4.9.2):
@@ -2417,7 +2417,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0)
+      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0)
     dev: true
 
   /@xtuc/ieee754@1.2.0:
@@ -2440,12 +2440,12 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /acorn-import-assertions@1.8.0(acorn@8.7.1):
+  /acorn-import-assertions@1.8.0(acorn@8.10.0):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
     peerDependencies:
       acorn: ^8
     dependencies:
-      acorn: 8.7.1
+      acorn: 8.10.0
     dev: true
 
   /acorn-jsx@5.3.2(acorn@7.4.1):
@@ -2667,7 +2667,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader@9.1.3(@babel/core@7.22.10)(webpack@5.72.0):
+  /babel-loader@9.1.3(@babel/core@7.22.10)(webpack@5.76.0):
     resolution: {integrity: sha512-xG3ST4DglodGf8qSwv0MdeWLhrDsw/32QMdTO5T1ZIp9gQur0HkCyFs7Awskr10JKXFXwpAhiCuYX5oGXnRGbw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -2677,7 +2677,7 @@ packages:
       '@babel/core': 7.22.10
       find-cache-dir: 4.0.0
       schema-utils: 4.2.0
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /babel-plugin-polyfill-corejs2@0.4.5(@babel/core@7.22.10):
@@ -3226,7 +3226,7 @@ packages:
       postcss-selector-parser: 6.0.10
     dev: true
 
-  /css-loader@5.2.7(webpack@5.72.0):
+  /css-loader@5.2.7(webpack@5.76.0):
     resolution: {integrity: sha512-Q7mOvpBNBG7YrVGMxRxcBJZFL75o+cH2abNASdibkj/fffYD8qWbInZrD0S9ccI6vZclF3DsHE7njGlLtaHbhg==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -3242,7 +3242,7 @@ packages:
       postcss-value-parser: 4.2.0
       schema-utils: 3.1.1
       semver: 7.3.7
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /css-prefers-color-scheme@6.0.3(postcss@8.4.13):
@@ -3386,11 +3386,11 @@ packages:
       once: 1.4.0
     dev: true
 
-  /enhanced-resolve@5.9.3:
-    resolution: {integrity: sha512-Bq9VSor+kjvW3f9/MiiR4eE3XYgOl7/rS8lnSxbRbF3kS0B2r+Y9w5krBWxZgDxASVZbdYrn5wT4j/Wb0J9qow==}
+  /enhanced-resolve@5.16.1:
+    resolution: {integrity: sha512-4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
     dev: true
 
@@ -3838,7 +3838,7 @@ packages:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
     dev: true
 
-  /fast-sass-loader@2.0.1(sass@1.51.0)(webpack@5.72.0):
+  /fast-sass-loader@2.0.1(sass@1.51.0)(webpack@5.76.0):
     resolution: {integrity: sha512-RGQNKA9d7OiF9dIa65QOabz4guGRZGg4CS2uXvLyWdmy5A6VLK8ZZEQKKlJ54ILmOpdFyaAq8u3Fj3oNkSmdug==}
     peerDependencies:
       sass: 1.x
@@ -3850,7 +3850,7 @@ packages:
       fs-extra: 3.0.1
       loader-utils: 1.4.0
       sass: 1.51.0
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /fast-url-parser@1.1.3:
@@ -4118,10 +4118,6 @@ packages:
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 4.0.0
-    dev: true
-
-  /graceful-fs@4.2.10:
-    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
 
   /graceful-fs@4.2.11:
@@ -4473,10 +4469,6 @@ packages:
     resolution: {integrity: sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==}
     engines: {node: '>=4'}
     hasBin: true
-    dev: true
-
-  /json-parse-better-errors@1.0.2:
-    resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
     dev: true
 
   /json-parse-even-better-errors@2.3.1:
@@ -5264,7 +5256,7 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-loader@4.3.0(postcss@8.4.13)(webpack@5.72.0):
+  /postcss-loader@4.3.0(postcss@8.4.13)(webpack@5.76.0):
     resolution: {integrity: sha512-M/dSoIiNDOo8Rk0mUqoj4kpGq91gcxCfb9PoyZVdZ76/AuhxylHDYZblNE8o+EQ9AMSASeMFEKxZf5aU6wlx1Q==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -5277,7 +5269,7 @@ packages:
       postcss: 8.4.13
       schema-utils: 3.1.1
       semver: 7.3.7
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /postcss-logical@5.0.4(postcss@8.4.13):
@@ -6064,7 +6056,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /style-loader@2.0.0(webpack@5.72.0):
+  /style-loader@2.0.0(webpack@5.76.0):
     resolution: {integrity: sha512-Z0gYUJmzZ6ZdRUqpg1r8GsaFKypE+3xAzuFeMuoHgjc9KZv3wMyCRjQIWEbhoFSq7+7yoHXySDJyyWQaPajeiQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -6072,7 +6064,7 @@ packages:
     dependencies:
       loader-utils: 2.0.2
       schema-utils: 3.1.1
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /supports-color@2.0.0:
@@ -6122,7 +6114,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin@5.3.1(webpack@5.72.0):
+  /terser-webpack-plugin@5.3.1(webpack@5.76.0):
     resolution: {integrity: sha512-GvlZdT6wPQKbDNW/GDQzZFg/j4vKU96yl2q6mcUkzKOgW4gwf1Z8cZToUCrz31XHlPWH8MVb1r2tFtdDtTGJ7g==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -6143,7 +6135,7 @@ packages:
       serialize-javascript: 6.0.0
       source-map: 0.6.1
       terser: 5.13.1
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     dev: true
 
   /terser@5.13.1:
@@ -6386,7 +6378,7 @@ packages:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
     dev: true
 
-  /vue-loader@15.10.1(@babel/core@7.22.10)(css-loader@5.2.7)(lodash@4.17.21)(webpack@5.72.0):
+  /vue-loader@15.10.1(@babel/core@7.22.10)(css-loader@5.2.7)(lodash@4.17.21)(webpack@5.76.0):
     resolution: {integrity: sha512-SaPHK1A01VrNthlix6h1hq4uJu7S/z0kdLUb6klubo738NeQoLbS6V9/d8Pv19tU0XdQKju3D1HSKuI8wJ5wMA==}
     peerDependencies:
       '@vue/compiler-sfc': ^3.0.8
@@ -6403,12 +6395,12 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': 3.3.0(@babel/core@7.22.10)(lodash@4.17.21)
-      css-loader: 5.2.7(webpack@5.72.0)
+      css-loader: 5.2.7(webpack@5.76.0)
       hash-sum: 1.0.2
       loader-utils: 1.4.0
       vue-hot-reload-api: 2.3.4
       vue-style-loader: 4.1.3
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
     transitivePeerDependencies:
       - '@babel/core'
       - arc-templates
@@ -6478,12 +6470,12 @@ packages:
       csstype: 3.1.2
     dev: false
 
-  /watchpack@2.3.1:
-    resolution: {integrity: sha512-x0t0JuydIo8qCNctdDrn1OzH/qDzk2+rdCOC3YzumZ42fiMqmQ7T3xQurykYMhYfHaPHTp4ZxAx2NfUo1K6QaA==}
+  /watchpack@2.4.1:
+    resolution: {integrity: sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg==}
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /web-streams-polyfill@3.2.1:
@@ -6514,7 +6506,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /webpack-cli@4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0):
+  /webpack-cli@4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0):
     resolution: {integrity: sha512-m3/AACnBBzK/kMTcxWHcZFPrw/eQuY4Df1TxvIWfWM2x7mRqBQCqKEd96oCUa9jkapLBaFfRce33eGDb4Pr7YQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -6535,7 +6527,7 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@webpack-cli/configtest': 1.1.1(webpack-cli@4.9.2)(webpack@5.72.0)
+      '@webpack-cli/configtest': 1.1.1(webpack-cli@4.9.2)(webpack@5.76.0)
       '@webpack-cli/info': 1.4.1(webpack-cli@4.9.2)
       '@webpack-cli/serve': 1.6.1(webpack-cli@4.9.2)
       colorette: 2.0.16
@@ -6545,7 +6537,7 @@ packages:
       import-local: 3.1.0
       interpret: 2.2.0
       rechoir: 0.7.1
-      webpack: 5.72.0(webpack-cli@4.9.2)
+      webpack: 5.76.0(webpack-cli@4.9.2)
       webpack-bundle-analyzer: 4.5.0
       webpack-merge: 5.8.0
     dev: true
@@ -6563,8 +6555,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.72.0(webpack-cli@4.9.2):
-    resolution: {integrity: sha512-qmSmbspI0Qo5ld49htys8GY9XhS9CGqFoHTsOVAnjBdg0Zn79y135R+k4IR4rKK6+eKaabMhJwiVB7xw0SJu5w==}
+  /webpack@5.76.0(webpack-cli@4.9.2):
+    resolution: {integrity: sha512-l5sOdYBDunyf72HW8dF23rFtWq/7Zgvt/9ftMof71E/yUb1YLOBmTgA2K4vQthB3kotMrSj609txVE0dnr2fjA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -6578,25 +6570,25 @@ packages:
       '@webassemblyjs/ast': 1.11.1
       '@webassemblyjs/wasm-edit': 1.11.1
       '@webassemblyjs/wasm-parser': 1.11.1
-      acorn: 8.7.1
-      acorn-import-assertions: 1.8.0(acorn@8.7.1)
-      browserslist: 4.21.4
+      acorn: 8.10.0
+      acorn-import-assertions: 1.8.0(acorn@8.10.0)
+      browserslist: 4.21.10
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.9.3
+      enhanced-resolve: 5.16.1
       es-module-lexer: 0.9.3
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
-      json-parse-better-errors: 1.0.2
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.1(webpack@5.72.0)
-      watchpack: 2.3.1
-      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.72.0)
+      terser-webpack-plugin: 5.3.1(webpack@5.76.0)
+      watchpack: 2.4.1
+      webpack-cli: 4.9.2(webpack-bundle-analyzer@4.5.0)(webpack@5.76.0)
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
