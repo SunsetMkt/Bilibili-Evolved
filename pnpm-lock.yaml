@@ -25,8 +25,8 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   marked:
-    specifier: ^1.2.5
-    version: 1.2.9
+    specifier: ^4.0.10
+    version: 4.0.10
   protobufjs:
     specifier: ^6.11.2
     version: 6.11.2
@@ -4660,9 +4660,9 @@ packages:
     resolution: {integrity: sha512-CkYQrPYZfWnu/DAmVCpTSX/xHpKZ80eKh2lAkyA6AJTef6bW+6JpbQZN5rofum7da+SyN1bi5ctTm+lTfcCW3g==}
     dev: true
 
-  /marked@1.2.9:
-    resolution: {integrity: sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==}
-    engines: {node: '>= 8.16.2'}
+  /marked@4.0.10:
+    resolution: {integrity: sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==}
+    engines: {node: '>= 12'}
     hasBin: true
     dev: false
 
